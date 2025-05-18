@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on CodeLust</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on CodeLust</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Sun, 18 May 2025 23:14:36 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Post</title>
+      <link>http://localhost:1313/posts/new-post/</link>
+      <pubDate>Sun, 18 May 2025 23:14:36 +0100</pubDate>
+      <guid>http://localhost:1313/posts/new-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://www.codelust.dev/&#34;&gt;CodeLust&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
