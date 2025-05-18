@@ -1,0 +1,14 @@
+# generated files
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo.log
+hugo_stats.json
+
+# executables
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# temporary files
+/.hugo_build.lock
