@@ -12,6 +12,7 @@ title = 'My New Post'
 date = 2025-05-18T23:02:01+01:00
 draft = true
 +++
+
 ## Introduction
 
 This is **bold** text, and this is *emphasized* text.
