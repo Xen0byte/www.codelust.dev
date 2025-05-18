@@ -1,0 +1,4 @@
+baseURL = 'https://www.codelust.dev/'
+languageCode = 'en-GB'
+title = 'CodeLust'
+theme = "hugo-theme-m10c"
