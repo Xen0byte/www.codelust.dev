@@ -1,7 +1,16 @@
 +++
-date = '2025-05-18T23:14:36+01:00'
-draft = false
-title = 'New Post'
+title = "New Post"
+date = "2025-05-19T00:42:21+01:00"
+#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+author = ""
+authorTwitter = "" #do not include @
+cover = ""
+tags = ["", ""]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = false
+hideComments = false
 +++
 
 ## Introduction

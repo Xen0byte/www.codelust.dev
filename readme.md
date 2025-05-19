@@ -5,12 +5,23 @@ Code, Coffee, Metal
 
 > [!NOTE]
 > to create a new post, execute `hugo new content content/posts/new-post.md`
+> <br/>
+> the post template can be updated in `archetypes/posts.md`
 
 ```markdown
 +++
-title = 'My New Post'
-date = 2025-05-18T23:02:01+01:00
-draft = true
+title = "New Post"
+date = "2025-05-19T00:42:21+01:00"
+#dateFormat = "2006-01-02" # this value can be configured for per-post date formatting
+author = ""
+authorTwitter = "" # do not include @
+cover = ""
+tags = ["", ""]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = false
+hideComments = false
 +++
 
 ## Introduction
@@ -23,7 +34,6 @@ Visit the [CodeLust](https://www.codelust.dev/) website!
 <br/>
 
 > [!NOTE]
-> to launch a local server, execute `hugo server`
-> optionally, add the `--buildDrafts` or `-D` flag, to include drafts
+> to launch a local server, execute `hugo server -t terminal`
 
 <br/>
