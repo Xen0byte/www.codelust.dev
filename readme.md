@@ -12,15 +12,11 @@ Code, Coffee, Metal
 +++
 title = "New Post"
 date = "2025-05-19T00:42:21+01:00"
-#dateFormat = "2006-01-02" # this value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" # do not include @
-cover = ""
+author = "Aleksander Reinhardt"
 tags = ["", ""]
 keywords = ["", ""]
 description = ""
 showFullContent = false
-readingTime = false
 hideComments = false
 +++
 
