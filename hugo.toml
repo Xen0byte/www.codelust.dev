@@ -4,20 +4,22 @@ title = "CodeLust"
 theme = "terminal"
 pagination.pagerSize = 5
 
-# Required for Chroma and the custom syntax highlighting.
 [markup.highlight]
+  # whether to use inline CSS instead of an external CSS file for syntax highlighting
+  # required for Chroma (https://github.com/alecthomas/chroma) to work with Hugo
   noClasses = false
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
+  # the name of the content directory (default is "content/posts")
+  # the list of created content will show up on the index page (baseurl)
   contentTypeName = "posts"
 
-  # if you set this to 0, only submenu trigger will be visible
+  # the maximum number of items to display on the navigation bar
+  # items that exceed this count will display in a "Show More" menu
   showMenuItems = 2
 
   # show selector to switch language
-  showLanguageSelector = false
+  showLanguageSelector = true
 
   # set theme to full screen width
   fullWidthTheme = false
@@ -25,33 +27,37 @@ pagination.pagerSize = 5
   # center theme with default width
   centerTheme = true
 
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
+  # if the resources directory contains an image called "cover.(jpg|png|webp)" then the file will be used as a cover automatically
+  # to have a resources directory, create a folder with the name of the content page, move the markdown file inside, and rename the markdown file to index.md
+  # the "cover" property can be removed from the content page markdown while this parameter is set to "true"
   autoCover = true
 
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  # allow Hugo to access Git information that can be used for content page metadata (https://gohugo.io/methods/page/gitinfo/)
+  # the last modification date for each content page will be the date of the last commit for that file
+  enableGitInfo = true
 
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  # whether or not to display when content pages were last updated
+  showLastUpdated = true
 
-  # whether to show a page's estimated reading time
-  # readingTime = false # default
+  # provide a string as a prefix for the last update date
+  # by default, it looks like the following: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  updatedDatePrefix = "Updated"
 
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = false # default
+  # whether to show a content page's estimated reading time
+  readingTime = true
 
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
+  # whether or not to show a table of contents on content pages
+  # can be overridden in a content page's front-matter
+  toc = false
 
-  # Set date/time format for posts
+  # the title for the table of contents
+  # can be overridden in a content page's front-matter
+  tocTitle = "Table Of Contents"
+
+  # Set date/time format for content pages
   # This will impact the date/time displayed on
-  # index.html, the posts list page, and on posts themselves
-  # This value can also be configured per-post on front matter
+  # index.html, the list of content pages, and on content pages themselves
+  # This value can also be configured per content page on front-matter
   # If you have any issues with the timezone rendering differently
   # than you expected, please ensure your timezone is correctly set
   # on your server.
@@ -101,6 +107,78 @@ pagination.pagerSize = 5
           url = "/about"
         [[languages.en.menu.main]]
           identifier = "showcase"
+          name = "Showcase"
+          url = "/showcase"
+		  
+		[[languages.en.menu.main]]
+          identifier = "abou1t"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "show2case"
+          name = "Showcase"
+          url = "/showcase"
+		          [[languages.en.menu.main]]
+          identifier = "ab3out"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "show4case"
+          name = "Showcase"
+          url = "/showcase"
+		  
+		[[languages.en.menu.main]]
+          identifier = "ab1out"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "showc3ase"
+          name = "Showcase"
+          url = "/showcase"
+		  		[[languages.en.menu.main]]
+          identifier = "ab2out"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "showc3ase"
+          name = "Showcase"
+          url = "/showcase"
+		          [[languages.en.menu.main]]
+          identifier = "ab4out"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "showc5ase"
+          name = "Showcase"
+          url = "/showcase"
+		  
+		[[languages.en.menu.main]]
+          identifier = "abo2ut"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "showc5a6se"
+          name = "Showcase"
+          url = "/showcase"
+		          [[languages.en.menu.main]]
+          identifier = "showc3ase"
+          name = "Showcase"
+          url = "/showcase"
+		          [[languages.en.menu.main]]
+          identifier = "ab43out"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "sh6owc5ase"
+          name = "Showcase"
+          url = "/showcase"
+		  
+		[[languages.en.menu.main]]
+          identifier = "ab4o2ut"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "sho6wc5ase"
           name = "Showcase"
           url = "/showcase"
 

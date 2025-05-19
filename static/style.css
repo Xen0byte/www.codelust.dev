@@ -1,3 +1,15 @@
+/* increase the width of centered content; left/right padding is 40px, and the remaining 1260px has 36 divisors */
 .container {
-    max-width: 1340px; /* increase the width of centered content; left/right padding is 40px, and the remaining 1260px has 36 divisors */
+    max-width: 1340px;
+}
+
+/* center navigation menu items horizontally */
+.navigation-menu > ul > li {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu__trigger, .read-more, .button__text {
+    text-transform: capitalize;
 }
