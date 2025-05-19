@@ -9,7 +9,3 @@
     margin-left: auto;
     margin-right: auto;
 }
-
-.menu__trigger, .read-more, .button__text {
-    text-transform: capitalize;
-}

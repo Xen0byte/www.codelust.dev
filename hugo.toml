@@ -54,133 +54,44 @@ pagination.pagerSize = 5
   # can be overridden in a content page's front-matter
   tocTitle = "Table Of Contents"
 
-  # Set date/time format for content pages
-  # This will impact the date/time displayed on
-  # index.html, the list of content pages, and on content pages themselves
-  # This value can also be configured per content page on front-matter
-  # If you have any issues with the timezone rendering differently
-  # than you expected, please ensure your timezone is correctly set
-  # on your server.
-  # This value can be customized according to Hugo documentation:
-  # https://gohugo.io/functions/time/format/
-  # Default value (no changes needed):
-  # dateFormat = "2006-01-02"
-  # Example format, with date, time, and timezone abbreviation:
-  # dateFormat = "2006-01-02 3:04:06 PM MST"
-
-
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
+  # the date/time format (https://gohugo.io/functions/time/format/)
+  # applies to the index page, the list of content pages, and on content pages themselves
+  # can be overridden in a content page's front-matter
+  dateFormat = "2006-01-02 15:04"
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "CodeLust"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
-      owner = ""
-      keywords = ""
-      copyright = ""
-      menuMore = "Show more"
-      readMore = "Read more"
-      readOtherPosts = "Read other posts"
-      newerPosts = "Newer posts"
-      olderPosts = "Older posts"
-      missingContentMessage = "Page not found..."
-      missingBackButtonLabel = "Back to home page"
+      subtitle = "Binary Hedonism"
+      owner = "Aleksander Reinhardt"
+      keywords = "codelust, binary, hedonism"
+      copyright = "© 2025 Aleksander Reinhardt"
+      menuMore = "Show More"
+      readMore = "Read More"
+      readOtherPosts = "Read Other Posts"
+      newerPosts = "Newer Posts"
+      olderPosts = "Older Posts"
+      missingContentMessage = "Page Not Found ..."
+      missingBackButtonLabel = "Back To Index"
       minuteReadingTime = "min read"
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "CodeLust"
         logoHomeLink = "/"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
           identifier = "about"
-          name = "About"
+          name = "about"
           url = "/about"
         [[languages.en.menu.main]]
-          identifier = "showcase"
-          name = "Showcase"
-          url = "/showcase"
-		  
-		[[languages.en.menu.main]]
-          identifier = "abou1t"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "show2case"
-          name = "Showcase"
-          url = "/showcase"
-		          [[languages.en.menu.main]]
-          identifier = "ab3out"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "show4case"
-          name = "Showcase"
-          url = "/showcase"
-		  
-		[[languages.en.menu.main]]
-          identifier = "ab1out"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "showc3ase"
-          name = "Showcase"
-          url = "/showcase"
-		  		[[languages.en.menu.main]]
-          identifier = "ab2out"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "showc3ase"
-          name = "Showcase"
-          url = "/showcase"
-		          [[languages.en.menu.main]]
-          identifier = "ab4out"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "showc5ase"
-          name = "Showcase"
-          url = "/showcase"
-		  
-		[[languages.en.menu.main]]
-          identifier = "abo2ut"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "showc5a6se"
-          name = "Showcase"
-          url = "/showcase"
-		          [[languages.en.menu.main]]
-          identifier = "showc3ase"
-          name = "Showcase"
-          url = "/showcase"
-		          [[languages.en.menu.main]]
-          identifier = "ab43out"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "sh6owc5ase"
-          name = "Showcase"
-          url = "/showcase"
-		  
-		[[languages.en.menu.main]]
-          identifier = "ab4o2ut"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "sho6wc5ase"
-          name = "Showcase"
-          url = "/showcase"
+          identifier = "featured"
+          name = "featured"
+          url = "/featured"
 
 [caches]
   [caches.assets]
