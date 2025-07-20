@@ -60,11 +60,8 @@ pagination.pagerSize = 5
   dateFormat = "2006-01-02 15:04"
 
 [frontmatter]
-  author = ["author", "Aleksander Reinhardt"]
-  date = [":git", "date", "publishDate"]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
-  showFullContent = ["showFullContent", false]
-  hideComments = ["hideComments", false]
+  date = [":git", "date"]
+  lastmod = [":git", "lastmod"]
 
 [languages]
   [languages.en]
