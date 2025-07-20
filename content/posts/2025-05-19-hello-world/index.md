@@ -1,7 +1,7 @@
 +++
 title = "Hello, World!"
 date = "2025-05-19T21:34:44+01:00"
-lastmod
+lastmod = ""
 author = "Aleksander Reinhardt"
 tags = ["miscellaneous"]
 keywords = ["hello", "world"]
