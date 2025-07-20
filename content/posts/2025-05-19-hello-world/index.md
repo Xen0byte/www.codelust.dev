@@ -1,12 +1,8 @@
 +++
 title = "Hello, World!"
-date = "2025-05-19T21:34:44+01:00"
-author = "Aleksander Reinhardt"
 tags = ["miscellaneous"]
 keywords = ["hello", "world"]
 description = "Entry Point To Binary Hedonism"
-showFullContent = false
-hideComments = false
 +++
 
 Hi, my name is Lex! I am a quality-focused .NET solutions architect, and I spend an unhealthy amount of time shaving yaks and researching code obscurities.

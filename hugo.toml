@@ -59,6 +59,13 @@ pagination.pagerSize = 5
   # can be overridden in a content page's front-matter
   dateFormat = "2006-01-02 15:04"
 
+[frontmatter]
+  author = ["author", "Aleksander Reinhardt"]
+  date = [":git", "date", "publishDate"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  showFullContent = ["showFullContent", false]
+  hideComments = ["hideComments", false]
+
 [languages]
   [languages.en]
     languageName = "English"
