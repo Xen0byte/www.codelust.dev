@@ -59,10 +59,6 @@ pagination.pagerSize = 5
   # can be overridden in a content page's front-matter
   dateFormat = "2006-01-02 15:04"
 
-[frontmatter]
-  date = [":git", "date"]
-  lastmod = [":git", "lastmod"]
-
 [languages]
   [languages.en]
     languageName = "English"
