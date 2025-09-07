@@ -1,0 +1,7 @@
+{{/* usage: {{<toc>}} will render page .TableOfContents regardless of theme toggle */}}
+{{ if .Page.TableOfContents }}
+<h1>Table Of Contents</h1>
+<div class="shortcode-toc">
+  {{ .Page.TableOfContents }}
+</div>
+{{ end }}
