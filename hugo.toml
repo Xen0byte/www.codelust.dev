@@ -12,7 +12,7 @@ enableGitInfo = true
   # precedence order for determining .Lastmod (the page object property counterpart of the lastmod frontmatter variable)
   # 1. git commit time
   # 2. file modification time
-  # 3. front matter 'lastmod'
+  # 3. front matter 'lastmod' (this can be added to the posts archetype, or directly to the metadata of posts)
   # 4. fallback to .Date
   lastmod = [":git", ":fileModTime", "lastmod", ":default"]
 

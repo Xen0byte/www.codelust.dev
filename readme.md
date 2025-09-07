@@ -6,6 +6,8 @@ Code, Coffee, Metal
 > [!NOTE]
 > to create a new post, execute `hugo new content content/posts/new-post.md`
 > <br/>
+> this new file can be used as a template, and requires a content directory to be created manually
+> <br/>
 > the post template can be updated in `archetypes/posts.md`
 
 ```markdown
