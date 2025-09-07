@@ -12,7 +12,6 @@ Code, Coffee, Metal
 +++
 title = "New Post"
 date = "2025-05-19T00:42:21+01:00"
-lastmod = "2025-07-20T12:26:15+01:00"
 author = "Aleksander Reinhardt"
 tags = ["", ""]
 keywords = ["", ""]

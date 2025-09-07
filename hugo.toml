@@ -4,6 +4,18 @@ title = "CodeLust"
 theme = "terminal"
 pagination.pagerSize = 5
 
+# allow Hugo to access Git information that can be used for content page metadata (https://gohugo.io/methods/page/gitinfo/)
+enableGitInfo = true
+
+[frontmatter]
+  # if possible, the last modification date for each content page will be the date of the last commit for that file
+  # precedence order for determining .Lastmod (the page object property counterpart of the lastmod frontmatter variable)
+  # 1. git commit time
+  # 2. file modification time
+  # 3. front matter 'lastmod'
+  # 4. fallback to .Date
+  lastmod = [":git", ":fileModTime", "lastmod", ":default"]
+
 [markup.highlight]
   # whether to use inline CSS instead of an external CSS file for syntax highlighting
   # required for Chroma (https://github.com/alecthomas/chroma) to work with Hugo
@@ -31,10 +43,6 @@ pagination.pagerSize = 5
   # to have a resources directory, create a folder with the name of the content page, move the markdown file inside, and rename the markdown file to index.md
   # the "cover" property can be removed from the content page markdown while this parameter is set to "true"
   autoCover = true
-
-  # allow Hugo to access Git information that can be used for content page metadata (https://gohugo.io/methods/page/gitinfo/)
-  # the last modification date for each content page will be the date of the last commit for that file
-  enableGitInfo = true
 
   # whether or not to display when content pages were last updated
   showLastUpdated = true
