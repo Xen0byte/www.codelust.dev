@@ -84,20 +84,6 @@ So, how do we actually measure and design for changeability? A few guiding princ
 
 ## A Mental Shift
 
-When we review code, we should stop asking "Is this correct?" or "Does this look nice?" Those matter, but they're secondary. The real question is: **"If requirements change tomorrow, how painful will it be to adapt this?"**  
-
-That's the north star of code quality.  
-
----
-
-## Conclusion  
-
-Code quality is often treated like an aesthetic judgment or a scorecard of best practices. But in practice, the only thing that truly matters is **changeability**. Can we adapt, extend, and evolve this code without fear? If yes, the code is high quality. If not, it isn't—no matter how elegant it looks today.  
-
-In the end, our job as developers isn't just to write code that works. It's to write code that *keeps working, even as the world around it changes.*  
-
-## A Mental Shift
-
 Code reviews often center around concerns which address the code only as it exists today. The more critical matter, and the one that should guide our evaluations, is: **"When requirements inevitably change, how painful will it be to adapt this code?"**.
 
 This shift in perspective transforms how we evaluate and write software. It prioritises clarity over cleverness, appropriate abstractions over rigid frameworks, and thoughtful design over mindless adherence to patterns. Changeability becomes the north star of code quality by which we navigate all technical decisions.
