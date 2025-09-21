@@ -192,3 +192,5 @@ var x = MethodThatReturnsSomething();
 * Avoid it when the type is **ambiguous, surprising, or critical to correctness** (async, queries, arithmetic).
 
 ---
+
+End Of Transmission
