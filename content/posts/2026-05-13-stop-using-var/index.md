@@ -1,10 +1,10 @@
 +++
-title = "Stop Using 'var'"
+title = 'Stop Using "var"'
 date = "2026-05-13T13:20:05+01:00"
 author = "Aleksander Reinhardt"
 tags = ["c#", "code review", "code quality", "readability"]
 keywords = ["stop", "using", "var"]
-description = "Why Implicit Typing Makes Code Review Harder, And When 'var' Actually Earns Its Keep"
+description = 'Why Implicit Typing Makes Code Review Harder, And When "var" Actually Earns Its Keep'
 showFullContent = false
 hideComments = false
 +++
@@ -33,7 +33,7 @@ Most pick option 2, which is exactly when `var` starts to bite. The bugs `var` e
 
 ---
 
-## What `var` Hides
+## What "var" Hides
 
 Each of the following is something a reviewer cannot see without leaving the diff.
 
@@ -110,7 +110,7 @@ Whatever you wanted, `object` is what you got. Type the variable as `Dictionary<
 
 ---
 
-## When `var` Earns Its Keep
+## When "var" Earns Its Keep
 
 There is a narrow band where `var` is genuinely better than the explicit form: when the right-hand side already names the type and the explicit form would only repeat it. The textbook case used to be the constructor call, where `Client client = new Client()` says `Client` twice and `var client = new Client()` says it once. Since C# 9 that argument has lost its teeth, because `Client client = new()` is just as terse, keeps the type on the left where the reader scans for it, and reads identically to a reviewer.
 
@@ -125,7 +125,7 @@ The pattern is simple. If the type is *on the line you're looking at*, `var` is 
 
 ---
 
-## A Mental Shift
+## A Debt To The Next Reader
 
 Type declarations are not a tax. They're a contract that the line reads the same in every context the code will live in: your IDE, a GitHub diff, a Slack snippet, a printed page on a desk. `var` optimises for the writing context at the expense of every other one. Code is read far more often than it's written, and every implicit type is a wager that the next reader can still recover the meaning from the line alone.
 
